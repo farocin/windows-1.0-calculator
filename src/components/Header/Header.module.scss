@@ -1,0 +1,23 @@
+header {
+  background-color: #6778FA;
+  display: flex;
+  justify-content: space-between;
+  border: 3px solid #1E1E1D;
+
+  .backText {
+    background-color: #000000;
+  }
+
+  p {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 50px;
+  }
+
+  .contexMenu, .close {
+    aspect-ratio: 1 / 1;
+    width: 50px;
+    height: auto;
+    background-color: white;
+  }
+}

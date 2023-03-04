@@ -1,0 +1,16 @@
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr); /* отображаем 6 элементов в ряд */
+
+  button {
+    background-color: #FDFDFD;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    background-image: url("../../../public/img/button.svg");
+    background-size: contain;
+    height: 50px;
+    width: 70px;
+    margin: 10px;
+  }
+}

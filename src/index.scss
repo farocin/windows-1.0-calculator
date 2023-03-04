@@ -1,0 +1,20 @@
+body, p, li, h1 {
+  margin: 0;
+  padding: 0;
+  font-family: "Charybdis", sans-serif;
+}
+
+@font-face {
+  font-family: "Charybdis";
+  src: url('../public/Charybdis.ttf');
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+html {
+  background-color: #F1786E;
+}
